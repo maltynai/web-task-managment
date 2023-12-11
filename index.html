@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/simplebar@5.3.0/dist/simplebar.min.css">
+  
+
+    
     <title>Task Manager</title>
 </head>
 <body>
@@ -38,7 +42,7 @@
     </div>
 
     <div id="taskManager" style="display: none;">
-        <!-- Your existing task manager HTML -->
+     
         <div class="task-manager">
             <button onclick="logOut()" id="logout">Log Out</button>
             <h1>Task Manager</h1>
@@ -51,10 +55,11 @@
                 <button onclick="filterTasks('active')">Active</button>
                 <button onclick="filterTasks('completed')">Completed</button>
             </div>
-            <ul id="taskList" class="task-list"></ul>
+            <ul id="taskList" class="task-list" data-simplebar></ul>
         </div>
     </div>
 
+    <script src="https://unpkg.com/simplebar@5.3.0/dist/simplebar.min.js"></script>
     <script src="https://kit.fontawesome.com/650ed1a0d3.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
