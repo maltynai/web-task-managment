@@ -158,12 +158,15 @@ function toggleComplete(taskId, isCompleted) {
 
 
 document.addEventListener('DOMContentLoaded', function () {
+    const authSection = document.getElementById('authSection');
+    const taskManagerSection = document.getElementById('taskManager');
 
-    if (isLoggedIn()) {
-        document.getElementById('authSection').style.display = 'none';
-        document.getElementById('taskManager').style.display = 'block';
-        fetchTasks();
+    if (!isLoggedIn()) {
+        authSection.style.display = 'block';
+        taskManagerSection.style.display = 'none';
     }
+
+    fetchTasks();
 });
 
 function login() {
