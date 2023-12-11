@@ -17,8 +17,8 @@ This is a simple Task Manager application with user authentication.
 
 1. Clone the repository:
 
-git clone <repository-url>
-cd task-manager-app
+git clone https://github.com/maltynai/web-task-managment
+cd web-task-managment
 
 2. Open index.html in your web browser.
 3. Explore the features and manage your tasks!
