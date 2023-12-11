@@ -99,7 +99,7 @@ li {
     color: white;
 }
 @media only screen and (max-width: 600px) {
-    .task-manager {
+    .task-manager , .authSection, #logout{
         width: 90%;
     }
 }
