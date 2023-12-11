@@ -101,6 +101,7 @@ li {
     margin: 0 10px;
     color: white;
 }
+
 @media only screen and (max-width: 600px) {
     .task-manager , #authSection{
         width: 90%;
@@ -113,4 +114,5 @@ li {
         right: 5px;
     }
 }
+
 
