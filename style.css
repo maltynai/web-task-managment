@@ -104,3 +104,10 @@ li {
     }
 }
 
+@media screen and (max-width: 600px) {
+    #logout {
+        top: 5px;
+        right: 5px;
+    }
+}
+
