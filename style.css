@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(img1.png);
+}
+
+
+#taskManager {
+    display: none;
+}
+
+.task-manager {
+    text-align: center;
+    position: relative;
+    width: 500px;
+    background-color: #4d4c4c;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font: white;
+}
+
+#logout {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+h1 {
+    margin-top: 0;
+    color: white;
+}
+
+.add-task {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #223c6f;
+    border-radius: 4px;
+    outline: none;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fefefe;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+    padding: 8px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    padding: 8px;
+    font: white;
+}
+
+.task-buttons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.task-buttons button:hover {
+    color: #4caf50;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+}
