@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
+    const taskListContainer = document.getElementById('taskList');
+    const taskList = new SimpleBar(taskListContainer);
+
     fetchTasks();
 });
 
