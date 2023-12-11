@@ -25,6 +25,7 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     font: white;
+    height: auto;
 }
 
 #logout {
@@ -91,6 +92,8 @@ button:hover {
 #taskList {
     list-style: none;
     padding: 0;
+    max-height: 300px; /* Set the maximum height you prefer */
+    overflow-y: auto;
 }
 
 li {
