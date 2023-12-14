@@ -66,7 +66,7 @@ function displayTasks(tasks) {
             
        
             const img2 = document.createElement('img');
-            img2.src = task.completed ? 'undo.png' : 'complete.png'; 
+            img2.src = task.completed ? 'check-mark.png':'dry-clean.png'; 
             img2.alt = task.completed ? 'Undo Complete' : 'Complete';
             img2.width = 20;
             img2.height = 20; 
